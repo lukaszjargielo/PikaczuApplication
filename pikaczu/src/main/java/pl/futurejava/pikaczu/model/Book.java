@@ -1,4 +1,4 @@
-package model;
+package pl.futurejava.pikaczu.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
