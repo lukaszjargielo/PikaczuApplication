@@ -16,7 +16,7 @@ import java.util.List;
 public class PikaczuApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PikaczuApplication.class, args);
+		var context = SpringApplication.run(PikaczuApplication.class, args);
 	}
 
 	@Bean

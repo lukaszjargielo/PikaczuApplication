@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
@@ -13,6 +14,8 @@ import java.util.List;
 @Data
 @Builder
 @Entity
+@Component
+
 public class Author {
 
     @Id
