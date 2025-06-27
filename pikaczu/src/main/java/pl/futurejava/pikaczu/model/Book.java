@@ -22,7 +22,7 @@ public class Book {
 
     private String title;
 
-    @ManyToMany
+    @ManyToMany(cascade = CascadeType.PERSIST)
     @JoinTable(
             name = "books_authors",
             joinColumns =
